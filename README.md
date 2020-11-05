@@ -22,7 +22,7 @@ Simple Youtube video background loading screen for fivem rp servers.
 5. Restart youre server
 
 ##### CREDIT
-- normalize.css | MIT License | github.com/necolas/normalize.css
+- normalize.css | MIT License | https://github.com/necolas/normalize.css
 - jquery.mb.YTPlayer | MIT License | https://github.com/pupunzi/jquery.mb.YTPlayer
 - jQuery Cycle2 | MIT + GPL License | http://jquery.malsup.com/cycle2/
 - jQuery v2.2.4 | MIT License | https://github.com/jquery/jquery
