@@ -4,22 +4,32 @@
 |
 **/
 
-
 /** Background setting **/
 
-var youtubeurl = "https://www.youtube.com/watch?v=pHr8gRWz9uo" 			/** Add YouTube url **/
-var youtubemute = "off"													/** on: mute youtube video audio **/
-var youtubeloop = "on"													/** on: loop youtube video **/
+let
+
+    // Add YouTube url
+    youtubeurl = "https://www.youtube.com/watch?v=pHr8gRWz9uo",
+    // on: mute youtube video audio
+    youtubemute = "off"
+    // on: loop youtube video
+    youtubeloop = "on";
 
 
 /**
 TEXT CONFIG
-secoundary color: 	add <span> </span> tag
+secondary color: 	add <span> </span> tag
 line feed: 			add <br> tag
 example:			4rn_<span>ROLEPLAY</span><br>rp server<br>INTRO
 **/
 
-var slide1 = "4rn_<span>ROLEPLAY</span><br>rp server<br>INTRO"			/** Slide 1 text **/
-var slide2 = "simple<br><span>lightweight </span><br>cool"				/** Slide 2 text **/
-var slide3 = "<span>GOOD</span><br>CHOISE"								/** Slide 3 text **/
-var comments = "Server is loading! Wait a minute / or two :D /"			/** Bottom comment text **/
+const
+
+    slides = [
+        "4rn_<span>ROLEPLAY</span><br>rp server<br>INTRO",
+        "simple<br><span>lightweight </span><br>cool",
+        "<span>GOOD</span><br>CHOICE"
+    ],
+
+    // Bottom comment text
+    comments = "Server is loading! Wait a minute / or two :D /";
