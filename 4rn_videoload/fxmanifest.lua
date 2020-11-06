@@ -9,7 +9,9 @@
 --	If problem this script, please write e-mail: nemerdekel@sohivatal.hu
 --
 
-resource_manifest_version "44febabe-d386-4d18-afbe-5e627f4af937"
+fx_version 'cerulean'
+
+game 'gta5'
 
 version '1.0'
 
@@ -18,10 +20,9 @@ description '4rn_videoloadscreen'
 files {
     'index.html',
     'config.js',
-    'css/min.css',
-    'images/logo.png',
-    'images/pattern.png',
-    'js/plugins.js',	
+    'css/*.*',
+    'images/*.*',
+    'js/*.*'
 }
 
 loadscreen 'index.html'
