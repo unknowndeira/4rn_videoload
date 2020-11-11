@@ -8,13 +8,18 @@
 
 let
 
-    // Add YouTube url
-    youtubeurl = "https://www.youtube.com/watch?v=pHr8gRWz9uo",
+    // Add YouTube url's /random video/ (if you need add more or remove)
+    youtubeurls = [
+		"https://www.youtube.com/watch?v=pHr8gRWz9uo", // Video 1 
+		"https://www.youtube.com/watch?v=lhjMfF5n1VU", // Video 2
+		"https://www.youtube.com/watch?v=0-l-GBr5_R0" // Video 3
+	],
     // on: mute youtube video audio
     youtubemute = "off"
     // on: loop youtube video
-    youtubeloop = "on";
+    youtubeloop = "on",
 
+    youtubeurl = youtubeurls[Math.floor(Math.random() * youtubeurls.length)];
 
 /**
 TEXT CONFIG
