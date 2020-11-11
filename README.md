@@ -7,6 +7,7 @@ Simple Youtube video background loading screen for fivem rp servers.
 
 # Features:
 - **Pattern layered YouTube backround video with audio**
+- **Random Youtube video**
 - **Page loading animation and spinner**
 - **Text slider**
 - **Simple configuration**
