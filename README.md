@@ -4,7 +4,7 @@
 
 Simple Youtube video background loading screen for fivem rp servers.
 ### Demo: https://youtu.be/G-PxaHIDMIM
-
+### More Info: https://forum.cfx.re/t/release-nice-video-loadingscreen-4rn-videoload/1760819/16
 # Features:
 - **Pattern layered YouTube backround video with audio**
 - **Random Youtube video**
